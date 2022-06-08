@@ -1,0 +1,8 @@
+{
+  "label": "Guía de usuario",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Tareas del usuario de ITOSS."
+  }
+}
