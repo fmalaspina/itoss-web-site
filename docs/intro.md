@@ -1,11 +1,9 @@
----
-sidebar_position: 1
----
+# Intro
 
-# Conceptos básicos
+Sección dedicada a la documentación del producto
 
-Conceptos fundamentales para comprender la aplicación **ITOSS**.
 
-# Guía de usuario
+```jsx live
 
-Tareas básicas del usuario.
+for loop
+```
