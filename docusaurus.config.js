@@ -44,6 +44,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           
         },
+        
         blog: {
           showReadingTime: true,
         },
@@ -72,7 +73,7 @@ const config = {
             label: 'Documentos',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
-          
+         
         ],
       },
       footer: {

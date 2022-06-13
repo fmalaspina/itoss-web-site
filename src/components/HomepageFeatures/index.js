@@ -4,38 +4,49 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Fácil de usar',
+    Svg: require('@site/static/img/fast.svg').default,
+    
+    title: 'Rápida implementación',
     
     description: (
       <>
-        Itoss fue pensada para su rápida implementación
+        Pensada para cubrir rápidamente la necesidad del negocio
       </>
     ),
+    
   },
   {
+    Svg: require('@site/static/img/important.svg').default,
     title: 'Focalizado en lo importante',
     description: (
       <>
-        El énfasis está puesto en las métricas de vital importancia para la operación de los servicios.
+        Con el énfasis está puesto en las métricas de vital importancia para la operación de los servicios
       </>
     ),
+    
   },
   {
+    Svg: require('@site/static/img/flex.svg').default,
     title: 'Flexible',
     description: (
       <>
-         Cualquier dispositivo o tecnología puede ser monitoreada en muy pocos pasos.
+         Cualquier dispositivo o tecnología puede ser monitoreada en muy pocos pasos
       </>
     ),
+    
   },
 ];
 
-function Feature({title, description}) {
+function Feature({Svg,title, description}) {
   return (
     <div className={clsx('col col--4')}>
+      <div className="text--center">
+        <Svg className={styles.featureSvg} role="img" />
+      </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
         <p>{description}</p>
+        
       </div>
     </div>
   );

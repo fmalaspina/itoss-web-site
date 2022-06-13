@@ -1,48 +1,5 @@
 ﻿# Guía usuarios - rol operativo
 
-# **Contenido**
-
-[Información del documento	3](#_Toc104919577)
-
-[Utilizando ITOSS en la operación de TI	4](#_Toc104919578)
-
-[Acceso a la interfaz de usuario	4](#_Toc104919579)
-
-[Menú de Operación	4](#_Toc104919580)
-
-[Tableros operativos	5](#_Toc104919581)
-
-[Tablero de estado	5](#_Toc104919582)
-
-[Tablero de monitores	6](#_Toc104919583)
-
-[Tablero de compañía	13](#_Toc104919584)
-
-[Tablero de componente	17](#_Toc104919585)
-
-[Gestión de DE y notificaciones	23](#_Toc104919586)
-
-[Gestión de DE	23](#_Toc104919587)
-
-[Gestión de notificaciones	24](#_Toc104919588)
-
-[Gestión del ciclo de vida del componente	26](#_Toc104919589)
-
-[Reportes	26](#_Toc104919590)
-
-
-
-
-# **Información del documento**
-
-
-|Name of document:|Guía de usuario|
-| :- | - |
-|Prepared by:|Bernardo Callejas|bcallejas@itoss.ar||
-|Create date:|Mayo 2022|||
-|||||
-
-
 # **Utilizando ITOSS en la operación de TI**
 La presente guía está orientada a las personas de soporte de TI, con el objetivo de mostrar las funcionalidades de la aplicación y mejores prácticas para su uso óptimo.
 ## Acceso a la interfaz de usuario
