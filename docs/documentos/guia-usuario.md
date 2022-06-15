@@ -1,4 +1,9 @@
-﻿# Guía usuarios - rol operativo
+﻿---
+id: guia-usuario
+title: Guía de usuario
+
+---
+# Guía usuarios - rol operativo
 
 # **Utilizando ITOSS en la operación de TI**
 La presente guía está orientada a las personas de soporte de TI, con el objetivo de mostrar las funcionalidades de la aplicación y mejores prácticas para su uso óptimo.

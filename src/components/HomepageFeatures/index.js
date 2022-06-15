@@ -20,7 +20,7 @@ const FeatureList = [
     title: 'Focalizado en lo importante',
     description: (
       <>
-        Con el énfasis está puesto en las métricas de vital importancia para la operación de los servicios
+        Con el énfasis puesto en las métricas de vital importancia para la operación de los servicios
       </>
     ),
     
@@ -56,6 +56,7 @@ export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
+        
         <div className="row">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
@@ -66,4 +67,6 @@ export default function HomepageFeatures() {
   );
 
 
+
+  
 }

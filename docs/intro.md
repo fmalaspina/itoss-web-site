@@ -1,9 +1,8 @@
-# Intro
+---
+id: intro
+title: Introducción
+---
+# Introducción
 
-Sección dedicada a la documentación del producto
+Aquí encontrará la documentación de usuario y conceptos fundamentales de la herramienta.
 
-
-```jsx live
-
-for loop
-```

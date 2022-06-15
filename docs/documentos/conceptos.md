@@ -1,4 +1,9 @@
-﻿# Guía de conceptos
+﻿---
+id: conceptos
+title: Guía de conceptos
+
+---
+# Guía de conceptos
 
 
 # **Desafío de la operación TI**

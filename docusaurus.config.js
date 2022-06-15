@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'ITOSS Operating IT Services',
-  tagline: 'Datacenter management made easy',
+  tagline: 'The tool to manage datacenter services',
   url: 'https://itoss-frsi.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -26,7 +26,18 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en','es'],
+    locales: ['en','es','pt'],
+    localeConfigs: {
+      en: {
+        label: 'English',
+      },
+      es: {
+        label: 'Spanish',
+      },
+      pt: {
+        label: 'Portuguese',
+      }
+    }
   },
 
   presets: [
@@ -72,8 +83,14 @@ const config = {
             position: 'left',
             label: 'Documentos',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
-         
+          /*{to: '/blog', label: 'Blog', position: 'left'},*/
+          {to: '/contact', label: 'Contacto', position: 'left'},
+          {to: '/nosotros', label: 'Nosotros', position: 'left'},
+          
+         /* {
+            type: 'localeDropdown',
+            position: 'left',
+          },*/
         ],
       },
       footer: {
@@ -91,12 +108,21 @@ const config = {
           {
             title: 'More',
             items: [
-              {
+             /* {
                 label: 'Blog',
                 to: '/blog',
+              },*/
+              {
+                label: 'Contacto',
+                to: '/contact',
+              },
+              {
+                label: 'Nosotros',
+                to: '/nosotros',
               }
             ],
           },
+          
         ],
         copyright: `Copyright © ${new Date().getFullYear()} ITOSS Project.`,
       },
